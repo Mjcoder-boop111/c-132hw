@@ -1,0 +1,24 @@
+#heading{
+    font-variant: small-caps;
+    width: 100%;
+    font-size: 23px;
+    margin-top: 0px;
+}
+body{
+    background-image: linear-gradient(rgb(47, 195, 206), rgb(25, 111, 151), rgb(22, 49, 126), rgb(103, 28, 133));
+
+}
+canvas{
+    animation-name: abcdefg;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    }
+    
+    @keyframes abcdefg{
+        from{box-shadow: 1px 1px 30px rgb(150, 31, 31);}
+        to{box-shadow: 1px 1px 30px rgb(0, 100, 30);}
+    }
+
+.back{
+    margin-left: 300px;
+}
